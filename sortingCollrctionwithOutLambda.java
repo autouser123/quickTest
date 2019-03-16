@@ -17,7 +17,7 @@ public class sortingCollrctionwithOutLambda {
 
 	public static void main(String[] args) {
 		ArrayList<Integer> al = new ArrayList<Integer>();
-		al.add(33);
+		al.add(35);
 		al.add(25);
 		al.add(80);
 		al.add(73);
