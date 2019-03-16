@@ -17,7 +17,7 @@ public class sortingCollrctionLambda {
 		al.add(80);
 		al.add(73);
 		al.add(33);
-		al.add(20);
+		al.add(21);
 		System.out.println(al);
 		
 		Collections.sort(al);
