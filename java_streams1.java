@@ -19,8 +19,8 @@ public class java_streams1 {
 		System.out.println(al);
 		
 		//Method1
-		List<Integer> list = al.stream().sorted((i1,i2)->(i1<i2)?1:(i1>i2)?-1:0).collect(Collectors.toList());
-		System.out.println(list);
+		List<Integer> oColl = al.stream().sorted((i1,i2)->(i1<i2)?1:(i1>i2)?-1:0).collect(Collectors.toList());
+		System.out.println(oColl);
 		//OR
 		//Method 2
 		List<Integer> list1 = al.stream().sorted((i1,i2)-> -i1.compareTo(i2)).collect(Collectors.toList());
